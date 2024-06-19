@@ -1,0 +1,19 @@
+body {
+    margin: 20px;
+    padding: 0;
+    box-sizing: border-box;
+}
+nav ul li {
+    /* setting display to inline */
+    display: inline;
+    margin: 0;
+    padding: 0;
+    /* Applying Roboto font */
+    font-family: 'Roboto', sans-serif;
+    font-size: large;
+}
+nav {
+    background-color: crimson;
+    margin: 0;
+    padding-top: 1px;
+}
