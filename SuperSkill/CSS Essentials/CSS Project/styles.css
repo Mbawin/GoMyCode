@@ -1,24 +1,38 @@
 body {
-    margin: 20px;
+    margin: 0;
     background-color: goldenrod;
 }
+nav ul {
+    padding-left: 0;
+}
 nav ul li {
-    /* setting display to inline */
     display: inline;
     margin: 0;
     padding: 0;
-    /* Applying Roboto font */
     font-family: 'Roboto', sans-serif;
     font-size: large;
 }
+
 nav {
     background-color: crimson;
     margin: 0;
-    padding-top: 1px;
+    /* padding-top: 1px; */
+}
+.box {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-bottom: 10px;
+    gap: 20px;
+    align-items: center;
+    padding: 10px;
 }
 .container {
     display: grid;
-    grid-column: 50px 50px;
+    grid-template-columns: 1fr 1fr;
+    margin-bottom: 10px;
+    gap: 20px;
+    align-items: center;
+    padding: 10px;
 }
 footer {
     background-color: crimson;
